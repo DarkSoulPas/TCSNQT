@@ -1,0 +1,13 @@
+#Q.Remove Duplicates from a string array ?
+
+arr=["apple","banana","orange","banana","apple"]
+hashset=set()
+
+
+for i in arr:
+    if i not in hashset:
+        hashset.add(i)
+
+print(list(hashset))
+
+
