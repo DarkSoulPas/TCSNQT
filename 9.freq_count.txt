@@ -1,0 +1,6 @@
+# Q. Frequencies of elements
+
+from collections import Counter
+
+arr=[1,2,2,3,4,1]
+print(dict(Counter(arr)))
